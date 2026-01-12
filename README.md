@@ -2,11 +2,84 @@
 
 Automated tool to create eBay bulk upload CSV files with GUI interface and GitHub image hosting integration.
 
+## 📦 Installation
+
+### Step 1: Install Python
+
+**Windows:**
+1. Go to: https://www.python.org/downloads/
+2. Download Python 3.11 or later
+3. Run installer
+4. ✅ **IMPORTANT:** Check "Add Python to PATH"
+5. Click "Install Now"
+
+**Mac:**
+1. Go to: https://www.python.org/downloads/
+2. Download Python 3.11 or later for macOS
+3. Run the installer package
+4. Follow installation prompts
+
+OR use Homebrew:
+```bash
+brew install python3
+```
+
+**Linux:**
+```bash
+sudo apt update
+sudo apt install python3 python3-pip
+```
+
+### Step 2: Download This Project
+
+**Option A: Using Git (Recommended)**
+```bash
+git clone https://github.com/Fromrags2bags/ebay.git
+cd ebay
+```
+
+**Option B: Download ZIP**
+1. Click the green "Code" button on GitHub
+2. Click "Download ZIP"
+3. Extract the ZIP file
+4. Open Terminal/Command Prompt in that folder
+
+### Step 3: Install Dependencies
+
+```bash
+pip install requests
+```
+
+On Mac/Linux, you might need:
+```bash
+pip3 install requests
+```
+
+### Step 4: Verify Installation
+
+Check Python is installed:
+```bash
+python --version
+```
+OR
+```bash
+python3 --version
+```
+
+Should show: Python 3.6 or higher
+
 ## 🚀 Quick Start
 
 ### Option 1: GUI Application (Recommended)
+
+**Windows:**
 ```bash
 python ebay_listing_gui.py
+```
+
+**Mac/Linux:**
+```bash
+python3 ebay_listing_gui.py
 ```
 
 ### Option 2: Command Line
