@@ -1,0 +1,39 @@
+# eBay Listing Automation Configuration File
+# Format: key = 'value'
+
+# eBay Settings
+site_id = 'US'
+country = 'US'
+currency = 'USD'
+default_category = '11450'
+default_condition = '3000'
+default_duration = 'GTC'
+default_format = 'FixedPrice'
+default_quantity = '1'
+
+# Payment & Shipping
+payment_method = 'PayPal'
+paypal_email = 'seller@example.com'
+shipping_service = 'USPSPriority'
+shipping_cost = '0.00'
+dispatch_time = '3'
+returns_accepted = 'ReturnsAccepted'
+return_period = 'Days_30'
+
+# Location
+location = 'New York'
+postal_code = '10001'
+
+# Folder Settings
+watch_folder = './listings'
+processed_folder = './processed'
+failed_folder = './failed'
+
+# File Settings
+output_csv = 'ebay_bulk_upload.csv'
+max_images = '12'
+image_extensions = '.jpg,.jpeg,.png,.gif'
+
+# Logging
+log_file = 'ebay_automation.log'
+log_level = 'INFO'

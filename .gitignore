@@ -1,0 +1,46 @@
+# eBay Listing Automation - Git Ignore File
+
+# Generated CSV files
+ebay_category_upload_*.csv
+ebay_upload_*.csv
+ebay_simple_*.csv
+ebay_seller_hub_*.csv
+
+# Configuration files with sensitive data
+ebay_config.json
+
+# Log files
+*.log
+ebay_automation.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Listings folder (user data - keep example only)
+listings/*
+!listings/example_item/
+!listings/.gitattributes
+
+# Temporary files
+*.tmp
+*.bak
+~*
